@@ -1,3 +1,56 @@
-.body_background {
-    background-color: #07BEB8;
+.body_color {
+  padding: 1.5em;
+  background-image: linear-gradient(to bottom right, #f08080, #ffdab9);
+  background-attachment: fixed;
+}
+
+.name_border {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation {
+  background-color: #07beb8;
+  flex: display;
+  flex-direction: row;
+  position: fixed;
+  width: 100%;
+  height: 5%;
+}
+
+.main_text {
+  color: #84e3c8;
+  font-size: 1.5em;
+  padding: 1em;
+}
+
+.navigation a:visited {
+  color: white;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navigation a:active {
+  color: white;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+.navigation a:link {
+  color: white;
+  font-size: 2em;
+  text-decoration: none;
+}
+.name {
+  font-size: 2em;
+  font-weight: bold;
+  color: #0c0c0c;
 }
