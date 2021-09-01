@@ -1,5 +1,5 @@
 .body_color {
-  padding: 0;
+  padding: 1.5em;
   background-image: linear-gradient(to bottom right, #f08080, #ffdab9);
   background-attachment: fixed;
 }
@@ -17,14 +17,15 @@
 .row {
   display: flex;
   justify-content: flex-end;
-  position: fixed;
+  position: sticky;
   border-radius: 0.4rem;
   font-family: Times New Roman;
   position: fixed;
   border-bottom: 5px solid maroon;
   width: 95%;
   background-color: white;
-  margin: 0 1rm;
+  padding: 15px;
+  font-size: 2em;
 }
 
 .main_text {
@@ -76,4 +77,17 @@
 
 .section_box {
   background-color: none;
+}
+
+.button {
+  background-color: #fff; /* Green */
+  border: none;
+  color: black;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-content: center center;
+  margin: auto;
+  font-size: 16px;
+  border-radius: 0.4em;
 }
