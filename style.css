@@ -1,5 +1,4 @@
 .body_color {
-  padding: 1.5em;
   background-image: linear-gradient(to bottom right, #f08080, #ffdab9);
   background-attachment: fixed;
 }
@@ -12,20 +11,23 @@
   height: 100%;
   color: white;
   font-family: Times New Roman;
+  padding: 5em;
 }
 
 .row {
-  display: flex;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
   justify-content: flex-end;
-  position: sticky;
-  border-radius: 0.4rem;
   font-family: Times New Roman;
   position: fixed;
-  border-bottom: 5px solid maroon;
-  width: 95%;
-  background-color: white;
-  padding: 15px;
+  width: 100%;
+  line-height: 1em;
   font-size: 2em;
+  background-color: black;
+  height: 45px;
+  padding-top: 0px;
 }
 
 .main_text {
@@ -36,25 +38,25 @@
 }
 
 .row a:visited {
-  color: black;
+  color: white;
   text-decoration: none;
   justify-content: space-evenly;
 }
 
 .row a:hover {
-  color: black;
-  font-weight: bold;
+  color: white;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .row a:active {
-  color: black;
+  color: white;
   text-decoration: none;
   justify-content: space-evenly;
 }
 
 .row a:link {
-  color: black;
+  color: white;
   text-decoration: none;
   justify-content: space-evenly;
 }
@@ -79,15 +81,70 @@
   background-color: none;
 }
 
-.button {
-  background-color: #fff; /* Green */
-  border: none;
-  color: black;
-  padding: 5px;
+.flex_box {
   display: flex;
-  flex-direction: row;
-  align-content: center center;
-  margin: auto;
-  font-size: 16px;
+  text-align: center;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+* {
+  padding: 0px;
+  margin: 0;
+}
+
+.skills_list {
+  list-style: none;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.category_style {
+  color: #0c0c0c;
+  font-size: 2em;
+  padding: 1em;
+  margin: 0;
+  text-decoration: underline;
+}
+
+.project {
+  background-color: #ff6f61;
+  padding: 1.25em;
+  border: 3px solid black;
+}
+
+.img_box {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.git_img {
+  height: 50px;
+  width: 50px;
+  border-radius: 0.4em;
+  float: right;
+}
+
+.linked_img {
+  height: 50px;
+  width: 50px;
+  border-radius: 0.4em;
+  float: left;
+}
+
+.email_img {
+  height: 50px;
+  width: 50px;
   border-radius: 0.4em;
 }
