@@ -150,6 +150,14 @@ body {
   width: 50px;
   border-radius: 0.4em;
 }
+
+.about_me {
+  color: #0c0c0c;
+  font-size: 1.5em;
+  padding: 1em;
+  padding-left: 1em;
+  margin: 0;
+}
 @media screen and (max-width: 1000px) and (min-width: 200px) {
   .flex_box {
     display: flex;
