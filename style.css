@@ -44,9 +44,8 @@
 }
 
 .row a:hover {
-  color: white;
+  color: pink;
   text-decoration: none;
-  font-weight: bold;
 }
 
 .row a:active {
@@ -154,9 +153,29 @@ body {
 .about_me {
   color: #0c0c0c;
   font-size: 1.5em;
-  padding: 1em;
+  padding: 0.8em;
   padding-left: 1em;
   margin: 0;
+  margin-left: 3em;
+  margin-bottom: 0;
+}
+
+.skills_title {
+  color: #0c0c0c;
+  font-size: 2em;
+  padding: 1em;
+  margin: 0;
+  text-decoration: underline;
+  margin-left: 3em;
+}
+
+.about_title {
+  color: #0c0c0c;
+  font-size: 2em;
+  padding: 1em;
+  margin: 0;
+  text-decoration: underline;
+  margin-left: 3em;
 }
 @media screen and (max-width: 1000px) and (min-width: 200px) {
   .flex_box {
