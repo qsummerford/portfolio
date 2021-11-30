@@ -107,6 +107,8 @@ body {
   list-style: none;
   font-size: 1.5em;
   margin: 0;
+  padding-right: 0;
+  padding-left: 100px;
 }
 
 .category_style {
