@@ -184,7 +184,7 @@ body {
   padding: 1em;
   margin: 0;
 }
-@media screen and (max-width: 1000px) and (min-width: 200px) {
+@media screen and (max-width: 750px) and (min-width: 200px) {
   .flex_box {
     display: flex;
     text-align: center;
@@ -214,12 +214,12 @@ body {
 
   .about_me {
     color: #0c0c0c;
-    font-size: 0.5em;
+    font-size: 0.75em;
     padding: 0.8em;
     padding-left: 1em;
     margin: 0;
-    margin-left: 0;
-    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-bottom: 5em;
   }
 
   .about_title {
@@ -242,11 +242,12 @@ body {
 
   .skills_list {
     list-style: none;
-    font-size: 0.5em;
+    font-size: 0.75em;
     margin: 0;
     padding-right: 0;
     padding-left: 100px;
-    margin-right: 12.5em;
+    margin-right: 8.5em;
+    margin-bottom: 10em;
   }
   .row a:hover {
     color: pink;
@@ -265,5 +266,6 @@ body {
     font-size: 0.5em;
     padding: 1em;
     margin: 0;
+    margin-top: 1em;
   }
 }
