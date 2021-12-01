@@ -204,4 +204,45 @@ body {
     height: 45px;
     padding-top: 0px;
   }
+
+  .about_me {
+    color: #0c0c0c;
+    font-size: 1.5em;
+    padding: 0.8em;
+    padding-left: 1em;
+    margin: 0;
+    margin-left: 0;
+    margin-bottom: 1em;
+  }
+
+  .about_title {
+    color: #0c0c0c;
+    font-size: 2em;
+    padding: 1em;
+    margin: 0;
+    text-decoration: underline;
+    margin-left: 0;
+  }
+
+  .skills_title {
+    color: #0c0c0c;
+    font-size: 2em;
+    padding: 1em;
+    margin: 0;
+    text-decoration: underline;
+    margin-left: 0;
+  }
+
+  .skills_list {
+    list-style: none;
+    font-size: 1.5em;
+    margin: 0;
+    padding-right: 0;
+    padding-left: 100px;
+    margin-right: 4em;
+  }
+  .row a:hover {
+    color: pink;
+    text-decoration: none;
+  }
 }
