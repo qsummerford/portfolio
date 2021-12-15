@@ -224,6 +224,13 @@ body {
   border-radius: 0.4em;
   border: 2px solid black;
 }
+
+.project4_img {
+  height: 90%;
+  width: 90%;
+  border-radius: 0.4em;
+  border: 2px solid black;
+}
 @media screen and (max-width: 750px) and (min-width: 200px) {
   .flex_box {
     display: flex;
@@ -353,5 +360,11 @@ body {
     background-color: #ff6f61;
     padding: 0;
     border: 3px solid black;
+  }
+  .project4_img {
+    height: 45%;
+    width: 45%;
+    border-radius: 0.4em;
+    border: 2px solid black;
   }
 }
