@@ -41,11 +41,13 @@
   color: white;
   text-decoration: none;
   justify-content: space-evenly;
+  transition: all 10s ease;
 }
 
 .row a:hover {
   color: pink;
   text-decoration: none;
+  transition: all 1s ease;
 }
 
 .row a:active {
