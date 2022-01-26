@@ -233,6 +233,42 @@ body {
   border-radius: 0.4em;
   border: 2px solid black;
 }
+
+.resume_logo {
+  height: 40px;
+  width: 40px;
+  border-radius: 0.4em;
+  margin-top: 5px;
+}
+
+.img_link_names {
+  text-align: center;
+  width: 30%;
+  margin-left: 525px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.email_name {
+  margin-right: -2px;
+}
+
+.linkedin_name {
+  margin-right: 7px;
+}
+
+.resume_name {
+  margin-right: 46px;
+}
+
+.github_name {
+  margin-left: 5px;
+}
+
+.name_box {
+  display: flex;
+  justify-content: center;
+}
 @media screen and (max-width: 750px) and (min-width: 200px) {
   .flex_box {
     display: flex;
@@ -328,7 +364,7 @@ body {
   .project_title {
     color: #0c0c0c;
     font-size: 1em;
-    padding: 1em;
+    /* padding: 1em; */
     margin: 0;
   }
   .projects_title {
@@ -368,5 +404,11 @@ body {
     width: 45%;
     border-radius: 0.4em;
     border: 2px solid black;
+  }
+
+  .name_box {
+    display: flex;
+    justify-content: center;
+    margin-right: 35px;
   }
 }
