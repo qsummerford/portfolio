@@ -269,6 +269,16 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.contact_title {
+  color: #0c0c0c;
+  font-size: 2em;
+  padding: 1em;
+  margin: 0;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 25px;
+}
 @media screen and (max-width: 750px) and (min-width: 200px) {
   .flex_box {
     display: flex;
@@ -301,17 +311,17 @@ body {
 
   .about_me {
     color: #0c0c0c;
-    font-size: 0.75em;
+    font-size: 1.25em;
     padding: 0.8em;
     padding-left: 1em;
     margin: 0;
-    margin-left: 1em;
+    margin-left: 0.5em;
     margin-bottom: 5em;
   }
 
   .about_title {
     color: #0c0c0c;
-    font-size: 1em;
+    font-size: 1.5em;
     padding: 1em;
     margin: 0;
     text-decoration: underline;
@@ -320,21 +330,22 @@ body {
 
   .skills_title {
     color: #0c0c0c;
-    font-size: 1em;
+    font-size: 1.5em;
     padding: 1em;
     margin: 0;
     text-decoration: underline;
     margin-left: 0;
+    margin-right: 15px;
   }
 
   .skills_list {
     list-style: none;
-    font-size: 0.75em;
+    font-size: 1.25em;
     margin: 0;
     padding-right: 0;
     padding-left: 100px;
     margin-right: 8.5em;
-    margin-bottom: 10em;
+    margin-bottom: 5em;
   }
   .row a:hover {
     color: pink;
@@ -345,12 +356,12 @@ body {
     font-weight: bold;
     color: #0c0c0c;
     text-shadow: 1px 1px white;
-    font-size: 1em;
+    font-size: 1.25em;
   }
 
   .aspiring_title {
     color: #0c0c0c;
-    font-size: 0.5em;
+    font-size: 0.85em;
     padding: 1em;
     margin: 0;
     margin-top: 1em;
@@ -369,7 +380,7 @@ body {
   }
   .projects_title {
     color: #0c0c0c;
-    font-size: 1em;
+    font-size: 1.5em;
     padding: 1em;
     margin: 0;
     text-decoration: underline;
@@ -410,5 +421,21 @@ body {
     display: flex;
     justify-content: center;
     margin-right: 35px;
+  }
+
+  .cover_img {
+    height: 250px;
+    width: auto;
+    border-radius: 90%;
+  }
+
+  .contact_title {
+    color: #0c0c0c;
+    font-size: 1.5em;
+    padding: 1em;
+    margin: 0;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 25px;
   }
 }
