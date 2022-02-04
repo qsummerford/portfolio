@@ -341,10 +341,7 @@ body {
   .skills_list {
     list-style: none;
     font-size: 1.25em;
-    margin: 0;
-    padding-right: 0;
-    padding-left: 100px;
-    margin-right: 8.5em;
+    margin-right: 6em;
     margin-bottom: 5em;
   }
   .row a:hover {
