@@ -335,13 +335,12 @@ body {
     margin: 0;
     text-decoration: underline;
     margin-left: 0;
-    margin-right: 15px;
   }
 
   .skills_list {
     list-style: none;
     font-size: 1.25em;
-    margin-right: 6em;
+    margin-right: 5em;
     margin-bottom: 5em;
   }
   .row a:hover {
